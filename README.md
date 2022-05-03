@@ -26,6 +26,6 @@ Cypress automation testing of E-commerce web application covering some of the mo
     * using .each() to make sure proper products are correctly displayed throughout all the steps
 ---------------------------------------------------------------
 * Checkout
- * validating input fields
- * verifying error validation messages
- * (.type() into forms, .click() elements, .select() dynamic and static dropdowns)
+  * validating input fields
+  * verifying error validation messages
+  * (.type() into forms, .click() elements, .select() dynamic and static dropdowns)
