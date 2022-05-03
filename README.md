@@ -11,12 +11,14 @@ Cypress automation testing of E-commerce web application covering some of the mo
 * Login form 
   * smoke test of happy path
   * negative testing 
-  * (.type() into forms, .click() elements, .check() checkboxes, page object pattern, assertions and other actions)
+  * (.type() into forms, .click() elements, .check() checkboxes, assertions and other actions)
 ---------------------------------------------------------------
 * Purchasing a subscription
-  * custom commands
-  * using fixtures
-  * E2E testing 
+  *  E2E testing of purchasing a subscription
+     * custom commands
+     * fixtures
+     * assertions
+     * .each() to make sure total prices are correctly counted and displayed in the shopping cart as well as checkout
 ---------------------------------------------------------------
 * Purchasing products
   * E2E testing of purchasing products including:
