@@ -4,6 +4,7 @@ Cypress automation testing of E-commerce web application covering some of the mo
 * Sign-Up form 
   * smoke test of happy path
   * negative testing 
+  * 
 (.type() into forms, .click() elements, .check() checkboxes, page object pattern, assertions and other actions)
 ---------------------------------------------------------------
 * Login form
