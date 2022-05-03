@@ -14,11 +14,11 @@ Cypress automation testing of E-commerce web application covering some of the mo
   * (.type() into forms, .click() elements, .check() checkboxes, page object pattern, assertions and other actions)
 ---------------------------------------------------------------
 * Purchasing a subscription
- * custom commands
- * using fixtures
- * E2E testing 
+  * custom commands
+  * using fixtures
+  * E2E testing 
 ---------------------------------------------------------------
-* Purchasing a products
+* Purchasing products
   * E2E testing of purchasing products including:
     * cookies manipulation
     * assertions
