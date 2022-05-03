@@ -20,6 +20,3 @@ The Spec files include:
 * custom commands
 * stubbing response data using cy.fixture()
 * and other commands/actions
-
----------------------------
-This project is in progress.
