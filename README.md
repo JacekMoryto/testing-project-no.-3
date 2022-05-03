@@ -1,6 +1,8 @@
 # testing-project-no.-3
 
-Cypress automation testing of E-commerce web application covering some of the most important areas from the business point of view. 
+Cypress automation testing as part of current learning.
+
+Partially covering some of the most important areas from the business point of view of E-commerce web application. 
 
 1. Sign-Up form 
 2. Login form 
