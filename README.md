@@ -41,7 +41,7 @@ Cypress automation testing of E-commerce web application covering some of the mo
 3. Purchasing a subscription
 4. Purchasing products
 5. Checkout
-
+-------------------------------------
 * (.type() into forms, .click() elements, .check() checkboxes, .select() dynamic and static dropdowns)
 * cookie manipulation
 * .each() 
