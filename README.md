@@ -2,7 +2,7 @@
 
 Automation testing using Cypress as part of current learning.
 
-Partially covering some of the most important areas from the business point of view of E-commerce web application. 
+The scripts are partially covering testing functionalities of the most important areas and scenarios from the business point of view of E-commerce web application.
 
 1. Sign-Up form 
 2. Login form 
