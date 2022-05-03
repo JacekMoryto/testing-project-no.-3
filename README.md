@@ -1,6 +1,6 @@
 # testing-project-no.-3
 
-Cypress automation testing as part of current learning.
+Automation testing using Cypress as part of current learning.
 
 Partially covering some of the most important areas from the business point of view of E-commerce web application. 
 
