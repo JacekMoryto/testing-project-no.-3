@@ -6,12 +6,13 @@ Cypress automation testing of E-commerce web application covering some of the mo
 * Sign-Up form 
   * smoke test of happy path
   * negative testing 
-  * (.type() into forms, .click() elements, .check() checkboxes, page object pattern, assertions and other actions)
+    * (.type() into forms, .click() elements, .check() checkboxes, page object pattern, assertions and other actions)
+    * .intercept() API requests 
 ---------------------------------------------------------------
 * Login form 
   * smoke test of happy path
   * negative testing 
-  * (.type() into forms, .click() elements, .check() checkboxes, assertions and other actions)
+    * (.type() into forms, .click() elements, .check() checkboxes, assertions and other actions)
 ---------------------------------------------------------------
 * Purchasing a subscription
   *  E2E testing of purchasing a subscription
@@ -31,3 +32,16 @@ Cypress automation testing of E-commerce web application covering some of the mo
   * validating input fields
   * verifying error validation messages
   * (.type() into forms, .click() elements, .select() dynamic and static dropdowns)
+
+
+
+(.type() into forms, .click() elements, .check() checkboxes, .select() dynamic and static dropdowns)
+cookie manipulation
+.each() 
+.intercept() API requests 
+cy.request() to login without use of GUI
+page object pattern
+chai and cypress built in assertions
+custom commands
+fixtures
+and other actions
