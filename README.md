@@ -8,7 +8,7 @@ Cypress automation testing of E-commerce web application covering some of the mo
 4. E2E Purchasing products
 5. Checkout
 -------------------------------------
-Tests include: 
+Spec files include: 
 * cy.type() into forms, cy.click() elements, cy.check() checkboxes, cy.select() dynamic and static dropdowns
 * cy.invoke() jQuery methods 
 * cookie manipulation
