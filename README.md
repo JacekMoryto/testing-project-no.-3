@@ -5,9 +5,8 @@ Automation testing using Cypress as part of current learning.
 The scripts are partially covering testing functionalities of some of the most important areas and scenarios from the business point of view of E-commerce web application.
 
 1. Sign-Up form 
-2. E2E Purchasing a subscription
-3. E2E Purchasing products
-4. Checkout
+2. E2E Purchasing products
+3. Checkout
 -------------------------------------
 The Spec files include: 
 * cy.type() into forms, cy.click() elements, cy.check() checkboxes, cy.select() dynamic and static dropdowns
