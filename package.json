@@ -1,0 +1,17 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "dashBoard": "npm run test --record --key 5c33a07e-9544-4a29-a3e4-a8a6a82c6987",
+    "greenKart": "NO_COLOR=1 node_modules\\.bin\\cypress run --env NO_COLOR=1 --spec \"cypress/integration/greenKart/*\" ",
+    "testRunner": "node_modules\\.bin\\cypress open"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.6.0"
+  }
+}

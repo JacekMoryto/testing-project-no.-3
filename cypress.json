@@ -1,0 +1,11 @@
+{
+  "defaultCommandTimeout": 4000,
+  "viewportWidth": 1400,
+  "viewportHeight": 800,
+  "baseUrl": "https://www.lavazza.com.au",
+  "env": {
+    "url": "https://rahulshettyacademy.com/angularpractice/",
+    "NO_COLOR": 1
+  },
+  "projectId": "c2udj2"
+}
