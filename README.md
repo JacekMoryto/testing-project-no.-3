@@ -9,7 +9,7 @@ The scripts are partially covering testing functionalities of some of the most i
 3. Checkout (fields validation)
 -------------------------------------
 The Spec files include: 
-* cy.type() into forms, cy.click() elements, cy.check() checkboxes, cy.select() dynamic and static dropdowns
+* interacting with DOM - cy.type() into forms, cy.click() elements, cy.check() checkboxes, cy.select() dynamic and static dropdowns, etc.
 * cy.invoke() jQuery methods 
 * cookie manipulation
 * cy.each() to ensure total prices are correctly counted and products are correctly displayed throughout all the steps of purchase paths
