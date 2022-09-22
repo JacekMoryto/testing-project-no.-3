@@ -11,7 +11,6 @@ The scripts are partially covering testing functionalities of some of important 
 additionally
 4. Basic Auth
 5. Login w/o use of GUI
-
 -------------------------------------
 The Spec files include: 
 * interacting with DOM - cy.type() into forms, cy.click() elements, cy.check() checkboxes, cy.select() dynamic and static dropdowns, etc.
