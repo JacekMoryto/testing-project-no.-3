@@ -282,20 +282,17 @@ describe('social sign-up methods', function () {
     });
   });
 
-  it.skip('verifies Facebook sign up method if it returns status code of 200 when requested', function () {
+  it.skip('verifies Facebook sign up method if it returns status code of 500 when intercepted', function () {
     cy.intercept(
       'GET',
-      'https://cdns.us1.gigya.com/sdk.config.get?apiKey=3_3EZd_ksO_R2Nr0lqbKJV2V30nK-FLHhxY0acDX19JE7mpdQtpoVp4sp-_uWxDlRJ&httpStatusCodes=true',
+      'https://cdns.au1.gigya.com/sdk.config.get?apiKey=3_-rGsg5nh-Nn5n2d4cOaA1u8cOYh1uB6w70LQ7t-NBSp4COWiEjIKyFMAhiKC1fXK&httpStatusCodes=true',
       { statusCode: 500 }
     ).as('facebook');
     cy.visit('/');
     cy.contains('LOGIN').click();
     cy.contains('SIGN UP', { timeout: 6000 }).click();
     cy.get('[data-provider="facebook"]').click();
-    cy.request(
-      'GET',
-      'https://socialize.us1.gigya.com/socialize.getGmidTicket?apiKey=3_3EZd_ksO_R2Nr0lqbKJV2V30nK-FLHhxY0acDX19JE7mpdQtpoVp4sp-_uWxDlRJ&expires=3600&gmid=gmid.ver4.AcbH3FfBCQ.yh0A-WvHp_eI2r29-QCdbxmHEupY8l0lb4kWK607okQMUf1B7ptD2ea-xltl0pK7.VmMIr3nDw-5n8h8dm-p4QhYmTICN17wSAdsV6aMFw5wLFX_psC5134FY-P416dPsH_lOV4yg4_PqZgPcW2hhAA.sc3&pageURL=https%3A%2F%2Fwww.lavazza.us%2F&ucid=IlHLOkI1Gewy0xZeOYZZXA&sdk=js_latest&sdkBuild=12978&format=json'
-    );
+    
 
     cy.wait('@facebook').then((interception) => {
       console.log(interception.response.body);
