@@ -11,6 +11,7 @@ The scripts are partially covering testing functionalities of some of important 
 additionally
 
 4.Basic Auth
+
 5.Login w/o use of GUI
 
 -------------------------------------
