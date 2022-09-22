@@ -9,8 +9,8 @@ The scripts are partially covering testing functionalities of some of important 
 3. Checkout (fields validation)
 
 additionally
-4.Basic Auth
-5.Login w/o use of GUI
+1. Basic Auth
+2. Login w/o use of GUI
 
 -------------------------------------
 The Spec files include: 
